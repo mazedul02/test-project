@@ -1,0 +1,197 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* header stile*/
+.jon-header .navbar-brand{
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+.jon-header span{
+    display: inline-block;
+    background: #6278df;
+    color: #fff;
+    height: 40px;
+    width: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+    .jon-menu .nav-link{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+}
+
+/* slider section */
+.slider-section{
+    background: url(img/022.jpg) no-repeat center ;
+    padding: 170px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+
+}
+
+.slider-section h2{
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+.slider-section h4{
+    margin-bottom: 30px;
+}
+
+/* About-section */
+
+.About-section{
+    background: rgb(230, 230, 236);
+}
+.About-text-left .lead{
+    
+    
+}
+
+/* feauter item */
+
+
+.feature-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+}
+
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.right-test-sec{
+    width: 60%;
+    padding: 10px;
+}
+.left-img-sec img{
+      height: 100%;
+      width: auto !important;
+      max-width: inherit;
+      position: relative;
+      left: -90px;
+}
+
+/* protfoleo-item css */
+
+.protfoleo-item{}
+.protfoleo-item a{
+    position: relative;
+    display: block;
+}
+.protfoleo-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(102, 79, 233, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.protfoleo-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* text-item-ttt css */
+
+.min-section-bg{
+    background: rgb(225, 238, 243);
+}
+
+
+/* pricing table css */
+
+.pricing-item{
+    background: white;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+}
+.pricing-item h1{}
+.pricing-item h5{}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+.pricing-item ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+    
+}
+.pricing-item ul li span{
+    color: #6278df;
+    font-size: 20px;
+    font-weight: bold;
+    width: 30px;
+    display: inline-block;
+}
+
+.pricing-button-item{}
+.pricing-button-item a{
+    border-color: #657be0;
+    border-width: 2px;
+    color: #657be0;
+    padding: 8px 20px;
+    font-size: 20px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+
+}
+
+/* testmonial-section css  */
+
+.auter-info img{
+    width: 35%;
+}
+.auter-info{
+    width: 200px;
+    margin: auto;
+}
+
+
+/* About-section  css */
+
+.About-item{
+    margin-top: 120px;
+}
+.About-item .card{}
+.About-item .card img{
+    width: 120px;
+    height: auto;
+    margin-top: -40px;
+    margin-left: 10px;
+}
+
+
+/* content Us css */
+
+.content-from-div .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+    padding: 40px;
+
+}
